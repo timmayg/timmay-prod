@@ -1,0 +1,18 @@
+---
+version: 3
+images:
+  base_image: 
+    name: quay.io/ansible/awx-ee:latest
+
+dependencies:
+  system: bindep.txt
+  python: requirements.txt
+ 
+additional_build_steps:
+  prepend_base:
+    - RUN yum -y update && yum install -y ftp
+  append_base:
+    - RUN alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 0
+    - RUN curl -o /runner/release-notes.json ftp://192.168.10.11/ansible/timmay-prod/release-notes.json
+    - RUN curl -o /runner/ansible.cfg ftp://192.168.10.11/ansible/timmay-prod/ansible.cfg
+    - RUN export ANSIBLE_CONFIG=~/ansible.cfg
