@@ -16,4 +16,5 @@ additional_build_steps:
     - RUN curl -o /runner/release-notes.json ftp://192.168.10.11/ansible/timmay-prod/release-notes.json
     - RUN curl -o /runner/ansible.cfg ftp://192.168.10.11/ansible/timmay-prod/ansible.cfg
     - RUN export ANSIBLE_CONFIG=~/ansible.cfg
-  
+    - RUN export timmay-prod-version=v1.3 
+    
