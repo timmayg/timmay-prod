@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!bindep.txt
+!execution-environment.yaml
+!requirements.txt
+!requirements.yaml
+!github-banner.png
+ansible.cfg
