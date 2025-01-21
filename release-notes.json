@@ -1,0 +1,52 @@
+{
+  "release_notes": {
+    "product": "Tim's AWX Execution Environment",
+    "quay_repository": "https://quay.io/repository/timmayg/timmay-prod",
+    "git_repository": "https://github.com/timmayg",
+    "linkedin": "https://www.linkedin.com/in/timglen",
+    "versions": [
+      {
+        "version": "1.0",
+        "release_date": "September 18, 2024",
+        "details": [
+          "Default build",
+          "https://www.youtube.com/watch?v=AklfCYT5aTg",
+          "Included pip install hvac (Hashicorp Vault)"
+        ]
+      },
+      {
+        "version": "1.1",
+        "release_date": "September 29, 2024",
+        "details": [
+          "Created ansible.cfg to eliminate errors when running playbooks",
+          "Added nano to bindep.txt"
+        ]
+      }
+      {
+        "version": "1.2",
+        "release_date": "October 17, 2024",
+        "details": [
+          "ERRORS PERSIST - Created ansible.cfg to eliminate errors when running playbooks",
+          "Added python library ciscoisesdk"
+          "fixed issue with release-notes.txt vs release-notes.json"
+        ]
+      }
+      {
+        "version": "1.3.02",
+        "release_date": "December 30, 2024",
+        "details": [
+          "Warnings persist - Created ansible.cfg [defaults] to manage errors when running playbooks",
+          "Manybe use ENV variables to eliminate depreciation warnings",
+          "Trying to fix this now!!! v1"
+        ]
+      }
+      {
+        "version": "1.4",
+        "release_date": "December 30, 2024",
+        "details": [
+          "Installed Powershell Core"
+        ]
+      }
+    ]
+  }
+}
