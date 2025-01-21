@@ -48,7 +48,7 @@
         ]
       }
       {
-        "version": "1.5x",
+        "version": "1.5",
         "release_date": "January 21, 2025",
         "details": [
           "Moved ansible.cfg & release-notes directly to Github",
