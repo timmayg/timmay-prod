@@ -56,6 +56,13 @@
           "Updated ansible.cfg to eliminate more 'deprecation' warnings'"
         ]
       }
+      {
+        "version": "1.51",
+        "release_date": "January 21, 2025",
+        "details": [
+          "Updated ansible.cfg to eliminate more 'deprecation' warnings'"
+        ]
+      }
     ]
   }
 }
