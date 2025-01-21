@@ -19,4 +19,4 @@ additional_build_steps:
     - ENV ANSIBLE_CONFIG=/runner/ansible.cfg
     - RUN curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos.d/microsoft.repo
     - RUN yum install -y powershell
-    - RUN timedatectl set-timezone America/New_York
+    - RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
