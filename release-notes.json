@@ -47,6 +47,15 @@
           "Installed Powershell Core"
         ]
       }
+      {
+        "version": "1.5x",
+        "release_date": "January 21, 2025",
+        "details": [
+          "Moved ansible.cfg & release-notes directly to Github",
+          "Updated execution-environment.yaml to update Timezone to America/New_York",
+          "Updated ansible.cfg to eliminate more 'deprecation' warnings'"
+        ]
+      }
     ]
   }
 }
