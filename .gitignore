@@ -6,4 +6,6 @@
 !requirements.txt
 !requirements.yaml
 !github-banner.png
-ansible.cfg
+!ansible.cfg
+!release-notes.json
+things-to-do.txt
