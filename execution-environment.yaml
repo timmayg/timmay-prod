@@ -10,7 +10,7 @@ dependencies:
 
 additional_build_steps:
   prepend_base:
-#    - RUN yum -y update && yum install -y ftp
+    - RUN yum -y update && yum install -y ftp
   append_base:
     - ENV timmay_prod_version=v1.51
     - RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
