@@ -27,7 +27,7 @@
         "release_date": "October 17, 2024",
         "details": [
           "ERRORS PERSIST - Created ansible.cfg to eliminate errors when running playbooks",
-          "Added python library ciscoisesdk"
+          "Added python library ciscoisesdk",
           "fixed issue with release-notes.txt vs release-notes.json"
         ]
       }
@@ -65,9 +65,9 @@
       }
       {
         "version": "1.6",
-        "release_date": "January 21, 2025",
+        "release_date": "January 23, 2025",
         "details": [
-          "Installed ansible-builder"
+          "Installed ansible-builder",
           "Installed python virtual environment",
           "Installed podman",
           "Build Python Virtual Environment for Ansible Builder"
