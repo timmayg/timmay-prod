@@ -63,6 +63,16 @@
           "Updated ansible.cfg to eliminate more 'deprecation' warnings'"
         ]
       }
+      {
+        "version": "1.6",
+        "release_date": "January 21, 2025",
+        "details": [
+          "Installed ansible-builder"
+          "Installed python virtual environment",
+          "Installed podman",
+          "Build Python Virtual Environment for Ansible Builder"
+        ]
+      }
     ]
   }
 }

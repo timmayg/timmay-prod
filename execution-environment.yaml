@@ -10,7 +10,7 @@ dependencies:
 
 additional_build_steps:
   prepend_base:
-    - RUN yum -y update && yum install -y ftp
+#    - RUN yum -y update && yum install -y ftp
   append_base:
     - ENV timmay_prod_version=v1.51
     - RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
@@ -20,4 +20,6 @@ additional_build_steps:
     - ENV ANSIBLE_CONFIG=/runner/ansible.cfg
     - RUN curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos.d/microsoft.repo
     - RUN yum install -y powershell
+    - RUN pip install ansible-builder
+
 
