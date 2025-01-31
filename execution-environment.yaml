@@ -8,7 +8,7 @@ images:
 dependencies:
   system: bindep.txt
   python: requirements.txt
-  galaxy: requirements.yaml
+#  galaxy: requirements.yaml
 
 additional_build_steps:
   prepend_base:
