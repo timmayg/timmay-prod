@@ -73,6 +73,15 @@
           "Build Python Virtual Environment for Ansible Builder"
         ]
       }
+      {
+        "version": "1.7",
+        "release_date": "January 31, 2025",
+        "details": [
+          "Updated execution-environment.yaml to look to localhost for AWX-EE base image"
+          "Updated execution-environment.yaml to include galaxy: requirements.yaml",
+          "Created base requirements.yaml "
+        ]
+      }
     ]
   }
 }
