@@ -83,6 +83,14 @@
           "Created base requirements.yaml "
         ]
       }
+      {
+        "version": "1.8",
+        "release_date": "July 17, 2025",
+        "details": [
+          "Updated req.txt to include proxmoxer",
+        ]
+      }
+
     ]
   }
 }
