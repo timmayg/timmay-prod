@@ -90,6 +90,14 @@
           "Updated req.txt to include proxmoxer",
         ]
       }
+      {
+        "version": "1.9",
+        "release_date": "January 31, 2026",
+        "details": [
+          "Just updating for newest Python, Ansible & Collections",
+        ]
+      }
+
 
     ]
   }
