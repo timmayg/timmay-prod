@@ -102,12 +102,14 @@
         ]
       }
       {
-        "version": "1.8b",
+        "version": "2.0",
         "release_date": "April 30, 2026",
-        "python_version": "x.y",
-        "ansible_version": "x.y",
+        "python_version": "3.12.12",
+        "ansible_core_version": "2.20.5",
         "details": [
-          "Added new AWX-EE"
+          "Updated with new CentOS Stream 9",
+          "Updated all other binaries",
+          "Validated that all Ansible Galaxy Collections are latest"
         ]
       }
 
