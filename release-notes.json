@@ -86,19 +86,21 @@
       {
         "version": "1.8",
         "release_date": "July 17, 2025",
+        "python_version": "3.11.13",
+        "ansible_version": "2.18.7",
         "details": [
           "Updated req.txt to include proxmoxer",
         ]
       }
       {
-        "version": "1.9",
-        "release_date": "January 31, 2026",
+        "version": "1.8a",
+        "release_date": "April 30, 2026",
+        "python_version": "",
+        "ansible_version": "",
         "details": [
-          "Just updating for newest Python, Ansible & Collections",
+          "Just running ansible-builder to see what happens.",
         ]
       }
-
-
     ]
   }
 }
