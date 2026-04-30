@@ -7,6 +7,7 @@ images:
 dependencies:
   system: bindep.txt
   python: requirements.txt
+  # galaxy: requirements.yaml
 
 additional_build_steps:
   prepend_base:
@@ -17,7 +18,7 @@ additional_build_steps:
     - ENV PYCMD=/usr/bin/python3.12
 
   append_base:
-    - ENV timmay_prod_version=v1.8b
+    - ENV timmay_prod_version=v2.0
     - RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
     - RUN curl -o /runner/ansible.cfg https://raw.githubusercontent.com/timmayg/timmay-prod/main/ansible.cfg
     - RUN curl -o /runner/release-notes.json https://raw.githubusercontent.com/timmayg/timmay-prod/main/release-notes.json
