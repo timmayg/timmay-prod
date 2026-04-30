@@ -66,6 +66,12 @@
       {
         "version": "1.6",
         "release_date": "January 23, 2025",
+        "query_centos_stream_ver": "rpm -q centos-stream-release",
+        "centos_stream_release": "centos-stream-release-9.0-26.el9.noarch",  
+        "python_version": "3.11.11",
+        "ansible_core_version": "2.18.1",
+        "community.crypto": "2.22.3",
+        "community.hashi_vault": "6.2.0",
         "details": [
           "Installed ansible-builder",
           "Installed python virtual environment",
@@ -86,8 +92,12 @@
       {
         "version": "1.8",
         "release_date": "July 17, 2025",
+        "query_centos_stream_ver": "rpm -q centos-stream-release",
+        "centos_stream_release": "centos-stream-release-9.0-28.el9.noarch",  
         "python_version": "3.11.13",
-        "ansible_version": "2.18.7",
+        "ansible_core_version": "2.18.7",
+        "community.crypto": "2.26.3",
+        "community.hashi_vault": "6.2.0",
         "details": [
           "Updated req.txt to include proxmoxer",
         ]
@@ -95,25 +105,35 @@
       {
         "version": "1.8a",
         "release_date": "April 30, 2026",
-        "python_version": "3.11.13",
-        "ansible_version": "2.19.9",
+        "query_centos_stream_ver": "rpm -q centos-stream-release",
+        "centos_stream_release": "centos-stream-release-9.0-36.el9.noarch",  
+        "python_version": "",
+        "ansible_core_version": "x",
         "details": [
           "Just running ansible-builder to see what happens.",
         ]
       }
       {
-        "version": "2.0",
-        "release_date": "April 30, 2026",
+        "timmay-prod_EE_version": "2.0",
+        "tims_release_date": "April 30, 2026",
+        "query_centos_stream_ver": "rpm -q centos-stream-release",
+        "centos_stream_release": "centos-stream-release-9.0-36.el9.noarch",  
         "python_version": "3.12.12",
         "ansible_core_version": "2.20.5",
+        "community.crypto": "3.2.0",
+        "community.hashi_vault": "7.1.0",
+        "cisco.ios": "11.3.0",
+        "cisco.ise": "not included",
+        "cisco.fmcansible": "not included",
+        "awx.awx": "24.6.1",
         "details": [
           "Updated with new CentOS Stream 9",
           "Updated all other binaries",
-          "Validated that all Ansible Galaxy Collections are latest"
+          "Validated that all Ansible Galaxy Collections are latest",
+          "NEED to get requirements.yaml included back into ee.yaml",
+          "NEED to start cleaning up EE, removing unnecess in ee.yaml"
         ]
       }
-
-
     ]
   }
 }
