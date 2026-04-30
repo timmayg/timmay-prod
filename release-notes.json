@@ -130,7 +130,7 @@
           "Updated with new CentOS Stream 9",
           "Updated all other binaries",
           "Validated that all Ansible Galaxy Collections are latest",
-          "NEED to get requirements.yaml included back into ee.yaml",
+          "NEED to get requirements.yaml included back into ee.yaml","Manybe use ENV variables to eliminate depreciation warnings",
           "NEED to start cleaning up EE, removing unnecess in ee.yaml"
         ]
       }
