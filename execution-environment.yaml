@@ -11,8 +11,8 @@ dependencies:
 additional_build_steps:
   prepend_base:
     - RUN yum -y update && yum install -y ftp python3.12 python3.12-pip
-    - RUN alternatives --install /usr/bin/python3 python3 /usr/bin/python3.12 100 && \
-        alternatives --set python3 /usr/bin/python3.12
+#    - RUN alternatives --install /usr/bin/python3 python3 /usr/bin/python3.12 100 && alternatives --set python3 /usr/bin/python3.12
+    - RUN ln -sf /usr/bin/python3.12 /usr/bin/python3
     - ARG PYCMD=/usr/bin/python3.12
     - ENV PYCMD=/usr/bin/python3.12
 
