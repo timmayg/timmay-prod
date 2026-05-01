@@ -20,8 +20,8 @@ additional_build_steps:
   append_base:
     - ENV timmay_prod_version=v2.0
     - RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
-    - RUN curl -o /runner/ansible.cfg https://raw.githubusercontent.com/timmayg/timmay-prod/main/ansible.cfg
-    - RUN curl -o /runner/release-notes.json https://raw.githubusercontent.com/timmayg/timmay-prod/main/release-notes.json
+    - RUN curl -o /opt/ansible.cfg https://raw.githubusercontent.com/timmayg/timmay-prod/main/ansible.cfg
+    - RUN curl -o /opt/release-notes.json https://raw.githubusercontent.com/timmayg/timmay-prod/main/release-notes.json
     - ENV ANSIBLE_CONFIG=/runner/ansible.cfg
     - RUN curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos.d/microsoft.repo
     - RUN yum install -y powershell
