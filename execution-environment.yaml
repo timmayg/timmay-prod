@@ -18,7 +18,7 @@ additional_build_steps:
     - ENV PYCMD=/usr/bin/python3.12
 
   append_base:
-    - ENV timmay_prod_version=v2.0
+    - ENV timmay_prod_version=v2.1
     - RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
     - RUN curl -o /opt/ansible.cfg https://raw.githubusercontent.com/timmayg/timmay-prod/main/ansible.cfg
     - RUN curl -o /opt/release-notes.json https://raw.githubusercontent.com/timmayg/timmay-prod/main/release-notes.json

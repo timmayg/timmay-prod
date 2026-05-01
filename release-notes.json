@@ -136,7 +136,7 @@
       }
       {
         "timmay-prod_EE_version": "2.1",
-        "tims_release_date": "April 30, 2026",
+        "tims_release_date": "May 1, 2026",
         "query_centos_stream_ver": "rpm -q centos-stream-release",
         "centos_stream_release": "centos-stream-release-9.0-36.el9.noarch",  
         "python_version": "3.12.12",
@@ -148,7 +148,8 @@
         "cisco.fmcansible": "not included",
         "awx.awx": "24.6.1",
         "details": [
-          "trying to get release-notes.json into a folder thats readable by AAP"
+          "Moved release-notes.json into a folder thats readable by AAP",
+          "RelNotes is now in /opt/release-notes.json"
         ]
       }
     ]
